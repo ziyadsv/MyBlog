@@ -13,6 +13,12 @@ C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.Domain\
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.Domain\bin\Debug\System.Web.WebPages.xml
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.Domain\bin\Debug\System.Web.WebPages.Razor.xml
-C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.Domain\obj\Debug\MyBlog.Domain.csprojResolveAssemblyReference.cache
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.Domain\obj\Debug\MyBlog.Domain.dll
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.Domain\obj\Debug\MyBlog.Domain.pdb
+C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.Domain\bin\Debug\MyBlog.Domain.dll.config
+C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.Domain\bin\Debug\EntityFramework.dll
+C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.Domain\bin\Debug\EntityFramework.xml
+C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.Domain\obj\Debug\MyBlog.Domain.Migrations.firstmg.resources
+C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.Domain\obj\Debug\MyBlog.Domain.csproj.GenerateResource.Cache

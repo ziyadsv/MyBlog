@@ -20,5 +20,10 @@ namespace MyBlog.WebUI.Controllers
         {
             return View(repository.Posts);
         }
+
+        public ActionResult PostByCategories()
+        {
+            return View();
+        }
     }
 }

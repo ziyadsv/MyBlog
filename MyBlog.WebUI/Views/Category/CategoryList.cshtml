@@ -1,0 +1,17 @@
+﻿@using MyBlog.Domain.Entity
+    @model IEnumerable<Category> 
+
+@{
+    ViewBag.Title = "CategoryList";
+}
+
+<h2>Category List</h2>
+
+@foreach (var item in Model)
+{
+    <div class="row panel">
+        <div class="col-xs-3">
+            <div class="label-success">@item.Name</div>
+        </div>
+    </div>
+}

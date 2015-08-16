@@ -10,5 +10,6 @@ namespace MyBlog.Domain.Abstract
      public interface IPostRepository
     {
        IEnumerable<Post> Posts { get; }
+      // IEnumerable<Post> PostByCategories(int CategoryId);
     }
 }

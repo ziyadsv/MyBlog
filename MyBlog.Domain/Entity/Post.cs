@@ -17,9 +17,9 @@ namespace MyBlog.Domain.Entity
         public DateTime PostedOn { get; set; }
         public DateTime? Modified { get; set; }
 
-        //public virtual Category Category  { get; set; }
+        public virtual Category Category { get; set; }
 
-        //public virtual ICollection<Tag> Tag { get; set; }
+        public virtual ICollection<Tag> Tag { get; set; }
 
     }
 }

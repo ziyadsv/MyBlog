@@ -8,7 +8,6 @@ namespace MyBlog.Domain.Abstract
 {
      public interface ICategoryRepository
     {
-        IEnumerable<Category>Categories { get;
-        }
+        IEnumerable<Category>Categories { get;}
     }
 }
