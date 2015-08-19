@@ -13,6 +13,8 @@ namespace MyBlog.Domain.Concrete
        // private EFCategoryRepository context = new EFCategoryRepository();
         private EFDbContext context = new EFDbContext();
 
-        public IEnumerable<Category> Categories { get { return context.Categories ; } }
+        //Get list of all categories
+        public IQueryable<Category> GetCategories { get { return context.Categories ; } }
+
     }
 }

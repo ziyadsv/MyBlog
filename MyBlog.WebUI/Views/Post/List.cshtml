@@ -1,36 +1,39 @@
-﻿@using MyBlog.Domain.Entity
-    @model IEnumerable<Post>
+﻿@*@using MyBlog.Domain.Entity
+    @model IEnumerable<Post>*@
 
+@using PagedList
+@using PagedList.Mvc
+   @model IPagedList<MyBlog.Domain.Entity.Post>
+
+@using PagedList.Mvc;
+@Styles.Render("~/Content/PagedList.css")
 
 @{
     ViewBag.Title = "All Post";
+    
 }
-
 <h2>List</h2>
-
-@foreach(var item in Model)
+@foreach (var item in Model)
 {
     <div class="panel panel-success">
         <div class="panel-heading alert-success"><h1>@item.Title</h1></div>
         <div class="panel-body">
+            <h6>@item.Category.Name </h6>
             <h4>@item.ShortDescription</h4>
         </div>
         <div class="panel-footer clearfix">
-            @item.PostedOn
+           @item.PublishedBy on @item.PostedOn
                  <div class="pull-right">
-                   
-            <a href="#" class="btn btn-success">Learn More</a>
-
-                       
-            </div>
-
-            
+                     @Html.ActionLink("Learn More", "Detail", new { id = @item.PostId }, new { @class = "btn btn-success" })           
+            </div>           
         </div>
-
-
-       
-
-
-    </div>
-    
+    </div>    
 }
+
+<br />
+<br />
+@*Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount @Html.PagedListPager(Model, page => Url.Action("List", new { page}))*@
+@*@Html.PagedListPager(Model, page => Url.Action("List", new { page }))*@
+<div class="pagedList">
+    @Html.PagedListPager(Model, page => Url.Action("List", new { page }), PagedListRenderOptions.PageNumbersOnly)
+</div> 

@@ -70,3 +70,5 @@ C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI.T
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI.Tests\obj\Debug\MyBlog.WebUI.Tests.csprojResolveAssemblyReference.cache
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI.Tests\obj\Debug\MyBlog.WebUI.Tests.dll
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI.Tests\obj\Debug\MyBlog.WebUI.Tests.pdb
+C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI.Tests\bin\Debug\PagedList.dll
+C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI.Tests\bin\Debug\PagedList.xml

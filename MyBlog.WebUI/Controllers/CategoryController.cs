@@ -18,7 +18,7 @@ namespace MyBlog.WebUI.Controllers
         // GET: Category
         public ActionResult CategoryList()
         {
-            return View(repository.Categories);
+            return View(repository.GetCategories);
         }
 
       

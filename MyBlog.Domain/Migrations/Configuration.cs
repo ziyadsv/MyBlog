@@ -10,6 +10,7 @@ namespace MyBlog.Domain.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
+            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(MyBlog.Domain.Concrete.EFDbContext context)

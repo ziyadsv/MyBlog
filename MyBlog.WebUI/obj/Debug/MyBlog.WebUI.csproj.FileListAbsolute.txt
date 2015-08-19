@@ -37,6 +37,8 @@ C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\b
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\Ninject.Web.Common.dll
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\Ninject.Web.Mvc.dll
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\Owin.dll
+C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\PagedList.dll
+C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\PagedList.Mvc.dll
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\System.Net.Http.Formatting.dll
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\System.Web.Helpers.dll
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\System.Web.Http.dll
@@ -55,6 +57,8 @@ C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\b
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\Ninject.xml
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\Ninject.Web.Common.xml
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\Ninject.Web.Mvc.xml
+C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\PagedList.xml
+C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\PagedList.Mvc.xml
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\System.Web.Helpers.xml
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\System.Web.Mvc.xml
 C:\Users\shetty-rami\Documents\Visual Studio 2015\Projects\MyBlog\MyBlog.WebUI\bin\System.Web.Optimization.xml

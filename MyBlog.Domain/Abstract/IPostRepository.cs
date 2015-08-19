@@ -7,9 +7,15 @@ using MyBlog.Domain.Entity;
 
 namespace MyBlog.Domain.Abstract
 {
-     public interface IPostRepository
+     public interface IPostRepository : IDisposable
     {
-       IEnumerable<Post> Posts { get; }
-      // IEnumerable<Post> PostByCategories(int CategoryId);
+       IQueryable<Post> GetPosts { get; }
+
+        Post GetPostById(int PostId);
+
+        void CreatePost(Post post);
+        void DeletePost(int PostId);
+        void UpdatePost(Post post);
+        void save();
     }
 }
